@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cf-telegram-bot",
+  "main": "src/index.js",
+  "compatibility_date": "2025-01-29",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "TELEGRAM_BOT_TOKEN": "<YOUR_TELEGRAM_BOT_TOKEN>",
+    "CF_API_TOKEN": "<YOUR_CF_API_TOKEN>",
+    "CF_ACCOUNT_ID": "<YOUR_CF_ACCOUNT_ID>"
+  }
+}
